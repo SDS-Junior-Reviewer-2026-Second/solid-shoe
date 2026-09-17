@@ -5,7 +5,13 @@ public class PenthouseSuite extends Apartment {
         this.numberOfBedrooms = 4;
     }
 
+    @Override
     public void setSquareFootage(int sqft) {
         this.squareFootage = sqft;
+    }
+
+    @Override
+    void upgradeBedroomNumber() {
+        this.numberOfBedrooms += 1;
     }
 }
