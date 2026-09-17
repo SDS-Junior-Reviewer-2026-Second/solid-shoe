@@ -7,12 +7,7 @@ public class Vehicle {
 
     public Vehicle(final int maxFuel) {
         this.maxFuel = maxFuel;
-        remainingFuel = maxFuel;
-    }
-
-    // this is not a car's responsibility.
-    public void reFuel(){
-        remainingFuel = maxFuel;
+        this.remainingFuel = maxFuel;
     }
 
     public int getMaxFuel() {
